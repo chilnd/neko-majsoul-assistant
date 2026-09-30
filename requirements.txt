@@ -1,0 +1,13 @@
+# 本项目依赖列表，版本为验证过的组合，可自行调整。
+#
+#   python -m pip install -r requirements.txt
+#   python -m playwright install chromium
+#
+# torch 使用 CPU 版即可；本项目推理在 CPU 上运行，单次约 20~30 ms。
+torch==2.14.0
+playwright==1.63.0
+protobuf==7.36.2
+toml==0.10.2
+tqdm==4.70.1
+numpy==2.5.3
+tensorboard==2.21.0
